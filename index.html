@@ -43,8 +43,8 @@
         token: '<TOKEN>',
         test: false // set this to true if you want to use the test environment instead of production
       }
-      const stub = window.stub(options)
-      stub.render()
+      window.stub.init(options)
+      window.stub.render()
     </script>
 
   </body>
